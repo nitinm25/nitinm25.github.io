@@ -64,13 +64,12 @@ main {
 
 a {
   color: #53aaff;
-  text-decoration: underline;
   transition: color 0.13s;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #a2d0ff;
+  color: #b3d9ff;
   /* background: #212c39; */
   border-radius: 3px;
   text-decoration: none;
@@ -166,15 +165,14 @@ h3 {
 }
 .pub-links a {
   color: #53aaff;
+  transition: color 0.13s;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.13s;
 }
 .pub-links a:hover {
-  color: #fff;
+  color: #b3d9ff;
   border-radius: 3px;
   text-decoration: none;
-  padding: 0 4px;
 }
 
 .pub-main {
@@ -192,6 +190,13 @@ h3 {
 }
 .pub-venue {
   color: #b4b4b4;
+}
+.pub-award {
+  /* color: #b4b4b4; */
+  /* color: #ffb3b3; */
+  color: #fff;
+  font-style: italic;
+  font-weight: 400;
 }
 
 footer {
@@ -221,18 +226,22 @@ hr {
     margin-bottom: 24px;
   }
   .profile-pic-wrapper {
-    width: 81px;
-    height: 81px;
+    width: 200px;
+    height: 140px;
     margin-top: 8px;
     margin-bottom: var(--profile-radius);
+    /* align-self: center; */
   }
   .profile-pic {
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 140px;
     border-radius: var(--profile-radius);
   }
   header h1 {
     font-size: 1.6rem;
+  }
+  body {
+    font-size: 1rem;
   }
   .subtitle {
     font-size: 1rem;
